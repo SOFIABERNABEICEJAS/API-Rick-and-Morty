@@ -1,0 +1,42 @@
+#personajes {
+	display: flex;
+	flex-wrap: wrap;
+}
+.div-contenedor {
+	display: flex;
+	justify-content: center;
+}
+h3 {
+	display: flex;
+	justify-content: center;
+}
+.div-imagen {
+	height: 250px;
+	overflow: hidden;
+}
+img {
+	width: 100%;
+}
+
+.personaje {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: #e4ecdd;
+	color: black;
+}
+body {
+	background-color: dimgray;
+	margin: 0%;
+}
+
+.boton {
+	border: none;
+	background-color: #e4ecdd;
+	color: black;
+	height: 30px;
+	width: 150px;
+	border-radius: 10px;
+	margin: 15px;
+}
