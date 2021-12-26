@@ -8,3 +8,5 @@ Tecnologías utilizadas:
 - CSS
 - JavaScript
 - API Rick and Morty
+
+✔ link a la página[https://sofiabernabeicejas.github.io/API-Ricky-and-Morty/]
