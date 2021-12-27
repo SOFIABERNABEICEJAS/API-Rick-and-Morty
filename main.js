@@ -17,11 +17,10 @@ const buscarInformacion = () => {
 buscarInformacion();
 
 const buscarPersonaje = (buscar) => {
-	fetch(`https://rickandmortyapi.com/api/characters?q=${buscar}`)
+	fetch(`https://rickandmortyapi.com/api/character/?name=${buscar}`)
 		.then((res) => res.json())
 		.then((data) => {
 			crearTarjetasPersonaje(data.results);
-			console.log(buscar);
 		});
 };
 
