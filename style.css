@@ -40,10 +40,16 @@ body {
 	border-radius: 10px;
 	margin: 15px;
 }
-
+.nav-clase {
+	padding: 10px;
+	border-radius: 10px;
+	width: 700px;
+	background-color: gray;
+}
 .imput-nombre {
+	background-color: #e4ecdd;
 	width: 200px;
-	height: 35px;
+	height: 30px;
 	border: none;
 	border-radius: 5px;
 }
